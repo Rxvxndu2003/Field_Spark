@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+
+.profile-dropdown {
+    position: relative;
+}
+
+.profile-button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.profile-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    min-width: 150px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.profile-menu a, .profile-menu form button {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    border: none;
+    background: none;
+    text-align: left;
+    width: 100%;
+}
+
+.profile-menu a:hover, .profile-menu form button:hover {
+    background-color: #06892f;
+    cursor: pointer;
+}
+
+.profile-dropdown:hover .profile-menu {
+    display: block;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+

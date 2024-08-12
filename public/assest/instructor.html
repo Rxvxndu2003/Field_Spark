@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field Spark Discussion Forum - Instructors</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="logo34.png" alt="logo"></a>
+
+        <div class="nav-links">
+
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="Turtle categories.html">Appoinments</a></li>
+                <li><a href="hatchery.html">Discussion forum</a></li>
+                <li><a href="otherhatchery.html">plant information</a></li>
+                <li><a href="threats.html">Resources</a></li>
+               
+            </ul>
+        </div>
+    </nav>
+    <div class="forum-container">
+        <div class="forum-header">
+            <h1>Discussion Forum 
+                <br>
+                Instructors</h1>
+            <input type="text" placeholder="Find your solutions" id="search">
+            <button onclick="searchQuestions()">Search</button>
+        </div>
+        <div class="forum-content">
+            <div class="tabs">
+                <button onclick="showTab('all')">All</button>
+                <button onclick="showTab('solved')">Solved</button>
+                <button onclick="showTab('popular')">Popular</button>
+            </div>
+            <div id="questions-container" class="questions-container">
+                <!-- Questions will be inserted here by JavaScript -->
+            </div>
+        </div>
+        <div class="reply-question">
+            <h2>Reply to questions</h2>
+            <textarea placeholder="Your Reply" id="new-reply"></textarea>
+            <button onclick="addReply()">Submit</button>
+        </div>
+    </div>
+
+    <div id="question-detail" class="question-detail hidden">
+        <button onclick="backToQuestions()">Back</button>
+        <div id="question-detail-content">
+            <!-- Detailed question content and replies will be inserted here by JavaScript -->
+        </div>
+    </div>
+    <footer>
+        <div class="container23">
+            <div class="footer-content">
+                <h3>
+                    Contact us
+                </h3>
+                <p>
+                    Email:Fieldspark@gmail.com
+                </p>
+                <p>
+                    phone:+94 81 234 2378
+                </p>
+                <p>
+                    Address: 2000,Kandy,Peradeniye.
+                </p>
+            </div>
+            <div class="footer-content">
+                <h3>
+                    Quick Links
+                </h3>
+                <ul class="list23">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Appoinment</a></li>
+                    <li><a href="">Discussion forum</a></li>
+                    <li><a href="">Plant information</a></li>
+                    <li><a href="">Resources</a></li>
+        
+                </ul>
+        
+            </div>
+            <div class="footer-content">
+            <h3>
+                Follow us
+            </h3>
+           
+            <ul class="list23">
+                <li><a href="">Instagrame</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Linkedln</a></li>
+                
+        
+            </ul>
+           
+        
+        </div>
+        </div>
+        
+        
+        <div class="bottom-bar">
+        <p>
+            &copy;2024 field spark. All right reserved.
+        </p>
+        
+        </div>
+        </footer>
+
+    <script src="test3.js"></script>
+</body>
+</html>

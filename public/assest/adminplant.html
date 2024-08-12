@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field Spark - Add a new plant</title>
+    <link rel="stylesheet" href="adminplant.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Field Spark</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Discussion Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <h2>Add a new plant</h2>
+            <br>
+            <br>
+            
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="plant-name" name="plant-name" placeholder="Plant name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="plant-origin" name="plant-origin" placeholder="Plant Origin">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="plant-care" name="plant-care" placeholder="Plant Care">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="plant-description" name="plant-description" placeholder="Plant description"></textarea>
+                </div>
+                <div class="form-group">
+                    <textarea id="plant-images" name="plant-images" placeholder="Plant images"></textarea>
+                    <div class="icons">
+                        <span class="icon">&#128206;</span>
+                        <span class="icon">&#128247;</span>
+                    </div>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
